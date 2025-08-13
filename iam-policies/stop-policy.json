@@ -1,0 +1,13 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:StopInstances",
+        "ec2:DescribeInstances"
+      ],
+      "Resource": "arn:aws:ec2:ap-southeast-2:<your-account-id>:instance/i-0ae207cf93c036155"
+    }
+  ]
+}
