@@ -18,7 +18,10 @@ This project automates the starting and stopping of EC2 instances during busines
 - Uses separate IAM roles and policies for security
 - Serverless, cost-efficient automation
 
-<pre> ## Folder Structure ``` . ├── start_instance.py # Lambda for starting EC2 ├── stop_instance.py # Lambda for stopping EC2 ├── iam-policies/ │ ├── start-policy.json # IAM policy for start function │ └── stop-policy.json # IAM policy for stop function ├── cloudwatch-schedule/ │ └── schedule-details.md # Cron schedule details └── README.md # Project documentation ``` </pre>
+## Folder Structure 
+``` 
+. ├── start_instance.py # Lambda for starting EC2 ├── stop_instance.py # Lambda for stopping EC2 ├── iam-policies/ │ ├── start-policy.json # IAM policy for start function │ └── stop-policy.json # IAM policy for stop function ├── cloudwatch-schedule/ │ └── schedule-details.md # Cron schedule details └── README.md # Project documentation 
+``` 
 
 ## How to Use
 
