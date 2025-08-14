@@ -19,6 +19,7 @@ This project automates the starting and stopping of EC2 instances during busines
 - Serverless, cost-efficient automation
 
 ## Folder Structure
+'''
 .
 ├── start_instance.py # Lambda for starting EC2
 ├── stop_instance.py # Lambda for stopping EC2
@@ -28,6 +29,7 @@ This project automates the starting and stopping of EC2 instances during busines
 ├── cloudwatch-schedule/
 │ └── schedule-details.md
 └── README.md
+'''
 
 ## How to Use
 
